@@ -20,13 +20,12 @@ trait TrafficLighter {
 }
 
 
-impl TrafficLight {
+impl TrafficLighter for TrafficLight {
     fn lighten(&self) -> u8 {
         match self {
             TrafficLight::Green => 30u8,
             TrafficLight::Yellow => 3u8,
             TrafficLight::Red => 20u8,
-            // _ => None,
         }
     }
 }
