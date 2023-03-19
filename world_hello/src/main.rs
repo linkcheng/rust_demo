@@ -1,6 +1,13 @@
 fn main() {
     println!("Hello, world!");
     greet_world();
+
+    let r= &1;
+    let &a= r;
+    let ref a= r;
+    let a= &r;
+    let a= *r;
+    println!("r={:?} a={:?}", r, a)
 }
 
 fn greet_world() {
