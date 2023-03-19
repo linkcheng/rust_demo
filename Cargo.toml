@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "area_demo",
+    "sort_demo",
+    "sum_demo",
+    "trafficlight_demo",
+    "trait_demo",
+    "world_hello",
+]
